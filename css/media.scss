@@ -1,0 +1,508 @@
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1200px;
+	}
+}
+
+/* XL */
+@media (max-width: 1199px) {
+
+	.navigation-top{
+		&__in{
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		.logo,
+		.desc,
+		.number{
+			margin-bottom: 10px;
+		}
+	}
+
+	.navigation-bottom{
+		.nav-item{
+			margin-right: 0;
+		}
+
+		.nav-link{
+			display: block;
+			text-align: center;
+		}
+
+		.socials{
+			&__list{
+				justify-content: center;
+			}
+		}
+	}
+
+	/* offer */
+	.offer{
+
+		&__title{
+			font-size: 3.5rem;
+		}
+
+		&__desc{
+			font-size: 2rem;
+		}
+	}
+
+	.case{
+		&__footer{
+			flex-direction: column;
+			text-align: center;
+		}
+
+		&__prices{
+			margin-bottom: 20px;
+		}
+	}
+
+	.test{
+
+		&__in{
+			justify-content: center;
+		}
+
+		&__info{
+			margin-right: 0px;
+			align-items: center;
+		}
+
+		&__desc{
+			margin-top: 40px;
+			display: flex;
+			justify-content: center;
+			margin-bottom: 30px;
+		}
+	}
+
+	.service{
+		margin: 0 auto;
+		display: table;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.recept-form{
+		text-align: center;
+
+		&__group{
+			margin-bottom: 30px;
+		}
+	}
+
+	.questions{
+		.boy{
+			display: none;
+			&__img{
+				height: 500px;
+			}
+		}
+
+		&__body{
+			float: none;
+		}
+	}
+
+	.footer{
+		text-align: center;
+
+		&__widget{
+			padding-bottom: 20px;
+
+			.socials{
+				&__list{
+					justify-content: center;
+				}
+			}
+		}
+	}
+
+	.keyse{
+		
+		&__info-right{
+			width: 100%;
+			padding: 0;
+		}
+
+		&__info-left{
+			display: none;
+		}
+	}
+
+	.slider-main{
+		&__info{
+			&-left{
+				display: none;
+			}
+		}
+	}
+}
+
+/* LG */
+@media (max-width: 991px) {
+
+	.navigation{
+		display: none;
+	}
+
+	.mobile-nav{
+		display: block;
+	}
+
+
+	/* offer */
+	.offer{
+		padding-top: 200px;
+
+		&__title{
+			font-size: 3rem;
+		}
+
+		&__desc{
+			font-size: 1.8rem;
+		}
+	}
+
+	.subtitle{
+		font-size: 2rem;
+	}
+
+	.question-form{
+		flex-direction: column;
+
+		&__left{
+			width: 100%;
+		}
+
+		&__right{
+			width: 100%;
+			margin: 0;
+			margin-top: 30px;
+		}
+	}
+
+	.map-box{
+		position: initial;
+		transform: translateX(0%);
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.keyses{
+		&__list{
+			width: 30%;
+		}
+
+		&__tabs{
+			width: 70%;
+		}
+	}
+
+	.keyse{
+		flex-direction: column;
+
+		&__article{
+			width: 100%;
+			text-align: center;
+		}
+
+		&__simple{
+			width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			text-align: center;
+		}
+
+	}
+
+	.show-product{
+		text-align: center;
+
+		&__top{
+			flex-direction: column;
+		}
+
+		&__img-box{
+			margin: 0 auto;
+		}
+
+		&__info{
+			padding: 0;
+		}
+
+		&__title{
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		&__order{
+			justify-content: center;
+		}
+
+		&__tehnical{
+			text-align: center;
+		}
+
+		&__subtitle{
+			text-align: center;
+		}
+
+		&__list{
+			text-align: center;
+		}
+
+		&__articul{
+			text-align: center;
+		}
+
+		&__desc{
+			text-align: center;
+		}
+	}
+
+	.slider-main{
+
+		&__box{
+			flex-direction: column;
+		}
+
+		&__left{
+			width: 100%;
+			text-align: center;
+		}
+
+		&__right{
+			width: 100%;
+			margin-top: 20px;
+			padding-left: 0;
+			text-align: center;
+		}
+	}
+}
+
+/* MD */
+@media (max-width: 767px) {
+
+	.tabs{
+		display: none;
+	}
+
+	.sliders{
+		display: block;
+	}
+
+	h1{
+		font-size: 3rem;
+	}
+
+	h2{
+		font-size: 2.5rem;
+	}
+
+	.subtitle{
+		font-size: 1.6rem;
+	}
+
+	.advantages,
+	.services,
+	.keyses,
+	.company{
+		padding: 60px 0;
+	}
+
+	.test{
+		text-align: center;
+
+		&__title{
+			font-size: 3rem;
+			line-height: 1.2;
+
+			&-small{
+				font-size: 2.5rem;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+		}
+
+		&__desc{
+			margin-top: 30px;
+			margin-right: 0;
+
+			span{
+				margin-right: 20px;
+			}
+
+			img{
+				margin: 0 auto;
+				margin-top: 20px;
+				display: inline-block;
+				padding-left: 0px;
+			}
+		}
+	}
+
+	.form-test{
+		&__body{
+			padding: 0 20px;
+		}
+
+		&__group{
+			margin-bottom: 20px;
+		}
+
+		&__input{
+			padding-top: 7px;
+			padding-bottom: 7px;
+		}
+
+		&__button{
+			font-size: 1.4rem;
+		}
+	}
+
+	.advantage{
+		flex-direction: column;
+		text-align: center;
+
+		&__img-out{
+			margin: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	.keyses{
+
+		&__all{
+			flex-direction: column;
+		}
+		
+		&__list{
+			width: 100%;
+		}
+
+		&__tabs{
+			width: 100%;
+		}
+	}
+
+	.company-5{
+		text-align: center;
+
+		&__num{
+			margin-right: 0px;
+		}
+	}
+
+	.questions{
+		text-align: center;
+	}
+
+	.map{
+
+		&__in{
+			padding: 0 20px;
+		}
+	}
+
+	.show-product{
+
+		&__prices{
+			margin: 0;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		&__order{
+			flex-direction: column;
+		}
+	}
+
+	.slider{
+		display: none;
+	}
+
+}
+
+
+/* SM */
+@media (max-width: 575px) {
+
+			/* offer */
+			.offer{
+				text-align: center;
+
+				&__title{
+					font-size: 2.5rem;
+				}
+		
+				&__desc{
+					margin-top: 30px;
+					font-size: 1.5rem;
+				}
+
+				&__button{
+					margin-top: 30px;
+				}
+			}
+
+			.test{
+
+				&__title{
+					font-size: 2.5rem;
+					line-height: 1;
+		
+					&-small{
+						font-size: 2rem;
+						margin-bottom: 15px;
+					}
+				}
+			}
+
+			.form-test{
+				padding-left: 10px;
+				padding-right: 10px;
+
+				&__desc{
+					font-size: 1.3rem;
+				}
+
+				&__info{
+					font-size: 0.9rem;
+				}
+			}
+
+			.company-5{
+				&__num{
+					font-size: 100px;
+				}
+			}
+
+			.company-box{
+				margin-bottom: 10px;
+
+				&__num{
+					font-size: 4rem;
+				}
+			}
+}
+
+@media (max-width: 400px) {
+
+	.form-test{
+		padding-left: 5px;
+		padding-right: 5px;
+
+		&__desc{
+			font-size: 1rem;
+		}
+
+		&__info{
+			font-size: 0.7rem;
+		}
+	}
+}
+

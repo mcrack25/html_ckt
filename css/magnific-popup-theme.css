@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* СТИЛИ МОДАЛОК */
+.activeFeedback {
+  cursor: pointer;
+}
+
+.popup-block {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* SM */
+@media (max-width: 575px) {
+  .popup-block {
+    width: 100%;
+  }
+}
+
+.feedback-modal {
+  background: #11b1f3;
+  color: #fff;
+  padding: 20px 20px 20px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.feedback-modal__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  padding: 15px 0 10px;
+}
+
+.feedback-modal__input-box {
+  margin-bottom: 9px;
+}
+
+.feedback-modal__input {
+  display: block;
+  width: 100%;
+  padding: 25px 30px;
+  font-size: 13px;
+  background: #30c2ff;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.feedback-modal__input:focus {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(14, 14, 14, 0.3);
+          box-shadow: 0px 0px 35px 0px rgba(14, 14, 14, 0.3);
+  outline: none;
+}
+
+.feedback-modal__button {
+  display: block;
+  font-size: 15px;
+  padding: 25px 0;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.message .icon-success {
+  color: #0f0;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.message .icon-error {
+  color: #000;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.message p {
+  color: #fff;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=magnific-popup-theme.css.map */
